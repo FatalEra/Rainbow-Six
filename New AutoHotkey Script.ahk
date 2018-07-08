@@ -1,0 +1,11 @@
+﻿F5::Click 235, 615
+F2::Click 910, 619
+F3::Click 752, 702
+F4::Click 498, 504
+F6::Click 639, 618
+F7::Click 502, 703
+F8::Click 893, 724
+F9::Click 359, 714
+ScrollLock::Click 755, 501
+F11::Click 636, 718
+F1::Click 241, 721
