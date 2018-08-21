@@ -1,0 +1,133 @@
+#NoEnv
+#MaxHotkeysPerInterval 99000000
+#HotkeyInterval 99000000
+#KeyHistory 0
+ListLines Off
+Process, Priority, , A
+SetBatchLines, -1
+SetKeyDelay, -1, -1
+SetMouseDelay, -1
+SetDefaultMouseSpeed, 0
+SetWinDelay, -1
+SetControlDelay, -1
+SendMode Input
+
+#NoTrayIcon
+
+
+; Caveira-Capitao
+SetMouseDelay, -1
+F1::
+While GetkeyState( "F1", "P") {
+	MouseClick, Left, 241, 721, ClickCount, 1
+	
+}
+Return
+
+
+; Valkyrie-Blackbeard
+SetMouseDelay, -1
+F2::
+While GetkeyState( "F2", "P") {
+	MouseClick, Left, 910, 619, ClickCount, 1
+}
+Return
+
+
+; Ela-Zofia
+SetMouseDelay, -1
+F3::
+While GetkeyState( "F3", "P") {
+	MouseClick, Left, 752, 702, ClickCount, 1
+}
+Return
+
+
+; Ash-Castle
+SetMouseDelay, -1
+F4::
+While GetkeyState( "F4", "P") {
+	MouseClick, Left, 498, 504, ClickCount, 1
+}
+Return
+
+
+; Glaz-Kapkan
+SetMouseDelay, -1
+F5::
+While GetkeyState( "F5", "P") {
+	MouseClick, Left, 235, 615, ClickCount, 1
+}
+Return
+
+
+; IQ-Bandit
+SetMouseDelay, -1
+F6::
+While GetkeyState( "F6", "P") {
+	MouseClick, Left, 639, 618, ClickCount, 1
+}
+Return
+
+
+; Jackal-Mira
+SetMouseDelay, -1
+F7::
+While GetkeyState( "F7", "P") {
+	MouseClick, Left, 502, 703, ClickCount, 1
+}
+Return
+
+
+; Dokkaebi-Vigil
+SetMouseDelay, -1
+F8::
+While GetkeyState( "F8", "P") {
+	MouseClick, Left, 893, 724, ClickCount, 1
+}
+Return
+
+
+; Hibnana-Echo
+SetMouseDelay, -1
+F9::
+While GetkeyState( "F9", "P") {
+	MouseClick, Left, 359, 714, ClickCount, 1
+}
+Return
+
+
+; Ying-Lesion
+SetMouseDelay, -1
+F11::
+While GetkeyState( "F11", "P") {
+	MouseClick, Left, 636, 718, ClickCount, 1
+}
+Return
+
+
+; Doc-Twitch
+SetMouseDelay, -1
+ScrollLock::
+While GetkeyState( "ScrollLock", "P") {
+	MouseClick, Left, 755, 501, ClickCount, 1
+}
+Return
+
+
+; Alibi-Finka
+SetMouseDelay, -1
+Break::
+While GetkeyState( "Break", "P") {
+	MouseClick, Left, 354, 820, ClickCount, 1
+}
+Return
+
+
+; Maverick-Clash
+SetMouseDelay, -1
+Up::
+While GetkeyState( "Up", "P") {
+	MouseClick, Left, 494, 815, ClickCount, 1
+}
+Return
