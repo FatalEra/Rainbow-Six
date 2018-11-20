@@ -1,0 +1,97 @@
+#NoEnv
+#MaxHotkeysPerInterval 99000000
+#HotkeyInterval 99000000
+SetBatchLines, -1
+SetDefaultMouseSpeed, 0
+
+
+#notrayicon
+f1::
+	While Getkeystate("f1", "P"){
+		Click 173, 703
+		DllCall("Sleep","Ptr", 0)
+		}
+		return
+		
+f2::
+	While Getkeystate("f2", "P"){
+		Click 841, 615
+		DllCall("Sleep","Ptr", 0)
+		}
+		return	
+		
+f3::
+	While Getkeystate("f3", "P"){
+		Click 702, 699
+		DllCall("Sleep","Ptr", 0)
+		}
+		return	
+
+f4::
+	While Getkeystate("f4", "P"){
+		Click 438, 512
+		DllCall("Sleep","Ptr", 0)
+		}
+		return		
+		
+f5::
+	While Getkeystate("f5", "P"){
+		Click 178, 612
+		DllCall("Sleep","Ptr", 0)
+		}
+		return	
+		
+f6::
+	While Getkeystate("f6", "P"){
+		Click 576, 616
+		DllCall("Sleep","Ptr", 0)
+		}
+		return	
+
+f7::
+	While Getkeystate("f7", "P"){
+		Click 436, 702
+		DllCall("Sleep","Ptr", 0)
+		}
+		return
+
+f8::
+	While Getkeystate("f8", "P"){
+		Click 849, 699
+		DllCall("Sleep","Ptr", 0)
+		}
+		return
+
+	f11::
+	While Getkeystate("f11", "P"){
+		Click 294, 716
+		DllCall("Sleep","Ptr", 0)
+		}
+		return	
+		
+ScrollLock::
+	While Getkeystate("ScrollLock", "P"){
+		Click 700, 521
+		DllCall("Sleep","Ptr", 0)
+		}
+		return	
+
+Break::
+	While Getkeystate("Break", "P"){
+		Click 304, 798
+		DllCall("Sleep","Ptr", 0)
+		}
+		return	
+F9::
+	While Getkeystate("F9", "P"){
+		Click 566, 720
+		DllCall("Sleep","Ptr", 0)
+		}
+		return			
+Ins::
+	While Getkeystate("Ins", "P"){
+		Click 564, 809
+		DllCall("Sleep","Ptr", 0)
+		}
+		return					
+		
