@@ -1,9 +1,0 @@
-Home::Suspend
-LButton::
-Loop
-{
-SetMouseDelay 18
-Click
-If (GetKeyState("LButton","P")=0)
-Break
-}
