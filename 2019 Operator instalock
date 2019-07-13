@@ -1,228 +1,153 @@
-(1080p)
-#NoEnv
-SetBatchLines, 0
-SetDefaultMouseSpeed, 0
-SetMouseDelay, 0
-SetKeyDelay, 0
-#SingleInstance Off
+setBatchLines 0
 #notrayicon
 
-; Caveira-Capitao
-f1::
-	While Getkeystate("f1", "P"){
-		Click 173, 703
-		DllCall("Sleep","Ptr", 0)
-		}
-		return
-		
-; Valkyrie-Blackbeard		
-f2::
-	While Getkeystate("f2", "P"){
-		Click 841, 615
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Ela-Zofia		
-f3::
-	While Getkeystate("f3", "P"){
-		Click 702, 699
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Ash-Castle
-f4::
-	While Getkeystate("f4", "P"){
-		Click 438, 512
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Glaz-Kapkan		
-f5::
-	While Getkeystate("f5", "P"){
-		Click 178, 612
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; IQ-Bandit		
-f6::
-	While Getkeystate("f6", "P"){
-		Click 576, 616
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Jackal-Mira
-f7::
-	While Getkeystate("f7", "P"){
-		Click 436, 702
-		DllCall("Sleep","Ptr", 0)
-		}
-		return
-		
-; Dokkaebi-Vigil
-f8::
-	While Getkeystate("f8", "P"){
-		Click 849, 699
-		DllCall("Sleep","Ptr", 0)
-		}
-		return
-		
-; Hibaba-Echo
-	f11::
-	While Getkeystate("f11", "P"){
-		Click 294, 716
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Doc-Twitch		
-ScrollLock::
-	While Getkeystate("ScrollLock", "P"){
-		Click 700, 521
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Alibi-Finka
-Break::
-	While Getkeystate("Break", "P"){
-		Click 304, 798
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Ying-Lesion		
-F9::
-	While Getkeystate("F9", "P"){
-		Click 566, 720
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
+~$F1::
+    While GetKeyState("F1", "P"){
+        sendInput, {LButton}
+		click 747, 461
+        sleep 10
+    }
+return
 
-; Maverick	
-PrintScreen::
-	While Getkeystate("PrintScreen", "P"){
-		Click 434, 800
-		DllCall("Sleep","Ptr", 0)
-		}
-		return					
-		
-(720p)    
- #NoEnv
-SetBatchLines, 0
-SetDefaultMouseSpeed, 0
-SetMouseDelay, 0
-SetKeyDelay, 0
-#SingleInstance Off
-#notrayicon
 
-; Caveira-Capitao
-f1::
-	While Getkeystate("f1", "P"){
-		Click 108, 448
-		DllCall("Sleep","Ptr", 0)
-		}
-		return
-		
-; Valkyrie-Blackbeard		
-f2::
-	While Getkeystate("f2", "P"){
-		Click 557, 406
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Ela-Zofia		
-f3::
-	While Getkeystate("f3", "P"){
-		Click 472, 449
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Ash-Castle
-f4::
-	While Getkeystate("f4", "P"){
-		Click 294, 357
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Glaz-Kapkan		
-f5::
-	While Getkeystate("f5", "P"){
-		Click 110, 406
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; IQ-Bandit		
-f6::
-	While Getkeystate("f6", "P"){
-		Click 383, 400
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Jackal-Mira
-f7::
-	While Getkeystate("f7", "P"){
-		Click 291, 456
-		DllCall("Sleep","Ptr", 0)
-		}
-		return
-		
-; Dokkaebi-Vigil
-f8::
-	While Getkeystate("f8", "P"){
-		Click 555, 456
-		DllCall("Sleep","Ptr", 0)
-		}
-		return
-		
-; Hibaba-Echo
-	f11::
-	While Getkeystate("f11", "P"){
-		Click 204, 449
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Doc-Twitch		
-ScrollLock::
-	While Getkeystate("ScrollLock", "P"){
-		Click 471, 345
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Alibi-Finka
-Break::
-	While Getkeystate("Break", "P"){
-		Click 202, 504
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
-		
-; Ying-Lesion		
-F9::
-	While Getkeystate("F9", "P"){
-		Click 386, 448
-		DllCall("Sleep","Ptr", 0)
-		}
-		return	
+~$F2::
+    While GetKeyState("F2", "P"){
+        sendInput, {LButton}
+		click 618, 561
+        sleep 10
+    }
+return
 
-; Nomad-Kaid		
-PrintScreen::
-	While Getkeystate("PrintScreen", "P"){
-		Click 290, 497
-		DllCall("Sleep","Ptr", 0)
-		}
-		return					
-		   
-    
-    
+
+~$F3::
+    While GetKeyState("F3", "P"){
+        sendInput, {LButton}
+		click 385, 560
+        sleep 10
+    }
+return
+
+
+~$F4::
+    While GetKeyState("F4", "P"){
+        sendInput, {LButton}
+		click 391, 345
+        sleep 10
+    }
+return
+
+
+~$F5::
+    While GetKeyState("F5", "P"){
+        sendInput, {LButton}
+		click 850, 458
+        sleep 10
+    }
+return
+
+
+~$F6::
+    While GetKeyState("F6", "P"){
+        sendInput, {LButton}
+		click 376, 451
+        sleep 10
+    }
+return
+
+
+~$F7::
+    While GetKeyState("F7", "P"){
+        sendInput, {LButton}
+		click 155, 543
+        sleep 10
+    }
+return
+
+
+~$F8::
+    While GetKeyState("F8", "P"){
+        sendInput, {LButton}
+		click 491, 554
+       sleep 10
+    }
+return
+
+
+~$F9::
+    While GetKeyState("F9", "P"){
+        sendInput, {LButton}
+		click 859, 452
+        sleep 10
+    }
+return
+
+
+~$F11::
+    While GetKeyState("F11", "P"){
+        sendInput, {LButton}
+		click 261, 543
+        sleep 10
+    }
+return
+
+
+~$ScrollLock::
+    While GetKeyState("ScrollLock", "P"){
+        sendInput, {LButton}
+		click 628, 333
+        sleep 10
+    }
+return
+
+
+~$Break::
+    While GetKeyState("Break", "P"){
+        sendInput, {LButton}
+		click 732, 563
+        sleep 10
+    }
+return
+
+
+~$PrintScreen::
+    While GetKeyState("PrintScreen", "P"){
+        sendInput, {LButton}
+		click 849, 552
+        sleep 10
+    }
+return
+
+
+~$Home::
+    While GetKeyState("Home", "P"){
+        sendInput, {LButton}
+		click 258, 557
+        sleep 10
+    }
+return
+
+
+~$PgUp::
+    While GetKeyState("PgUp", "P"){
+        sendInput, {LButton}
+		click 151, 451
+        sleep 10
+    }
+return
+
+
+~$PgDn::
+    While GetKeyState("PgDn", "P"){
+        sendInput, {LButton}
+		click 366, 666
+        sleep 10
+    }
+return
+
+~$Del::
+    While GetKeyState("Del", "P"){
+        sendInput, {LButton}
+		click 503, 552
+        sleep 10
+    }
+return
