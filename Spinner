@@ -1,0 +1,45 @@
+(AFK Spinner for ahk) 2021))
+F12::Suspend
+Space::
+MouseGetPos X, Y
+sendinput {z down}
+while getkeystate("Space")
+{
+if getkeystate("Space") = 0
+	break
+else
+	MouseMove 920, 500, 0
+if getkeystate("Space") = 0
+	break
+else
+	MouseMove 920, 580, 0
+if getkeystate("Space") = 0
+	break
+else
+	MouseMove 1000, 580, 0
+if getkeystate("Space") = 0
+	break
+else
+	MouseMove 1000, 500, 0
+if getkeystate("Space") = 0
+	break
+else
+	MouseMove 920, 500, 0
+if getkeystate("Space") = 0
+	break
+else
+	MouseMove 920, 580, 0
+if getkeystate("Space") = 0
+	break
+else
+	MouseMove 1000, 580, 0
+if getkeystate("Space") = 0
+	break
+else
+	MouseMove 1000, 500, 0
+if getkeystate("z")=0
+	sendinput {z down}
+}
+sendinput {z up}
+MouseMove X, Y, 0
+Return
