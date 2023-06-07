@@ -1,0 +1,13 @@
+~Z::
+   {
+       MouseGetPos X, Y
+       MouseMove X+25, Y+15, 0
+       MouseMove X+40, Y+25, 0
+       MouseMove X+45, Y+15, 0
+       MouseMove X+50, Y, 0
+       MouseMove X+45, Y-15, 0
+       MouseMove X+40, Y-25, 0
+       MouseMove X+15, Y-15, 0
+       MouseMove X, Y, 0
+   } 
+Return
